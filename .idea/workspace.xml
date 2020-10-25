@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="175f29d0-b26a-4c85-b13d-36757b8d0444" name="Default" comment="" />
+    <list default="true" id="175f29d0-b26a-4c85-b13d-36757b8d0444" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/codebind/LBG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codebind/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codebind/app.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codebind/app.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codebind/image_quantization.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,59 +19,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="image_quantization.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/codebind/image_quantization.java">
+      <file leaf-file-name="LBG.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/codebind/LBG.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="151" column="107" selection-start-line="151" selection-start-column="107" selection-end-line="151" selection-end-column="107" />
+            <state relative-caret-position="331">
+              <caret line="198" column="17" selection-start-line="198" selection-end-line="217" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#avg#0;class#image_quantization#0" />
-                <element signature="method#divideVector#0;class#image_quantization#0" />
-                <element signature="method#readImage#0;class#image_quantization#0" />
-                <element signature="method#writeImage#0;class#image_quantization#0" />
-                <element signature="method#diffrence#0;class#image_quantization#0" />
-                <element signature="method#equal#0;class#image_quantization#0" />
-                <element signature="method#associate#0;class#image_quantization#0" />
-                <element signature="method#split#0;class#image_quantization#0" />
-                <element signature="method#nearest_vector#0;class#image_quantization#0" />
-                <element signature="method#compress#0;class#image_quantization#0" />
-                <element signature="method#decompress#0;class#image_quantization#0" />
+                <element signature="method#avg#0;class#LBG#0" />
+                <element signature="method#divideImage#0;class#LBG#0" />
+                <element signature="method#readGreyImage#0;class#LBG#0" />
+                <element signature="method#writeImage#0;class#LBG#0" />
+                <element signature="method#diffrence#0;class#LBG#0" />
+                <element signature="method#associate#0;class#LBG#0" />
+                <element signature="method#split#0;class#LBG#0" />
+                <element signature="method#nearest_vector#0;class#LBG#0" />
+                <element signature="method#compress#0;class#LBG#0" />
+                <element signature="method#decompress#0;class#LBG#0" />
+                <element signature="method#main#0;class#LBG#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="original.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/original.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="app.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/codebind/app.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/codebind/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="484">
+              <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#avg#0;class#app#0" />
-                <element signature="method#dicideImage#0;class#app#0" />
-                <element signature="method#readImage#0;class#app#0" />
-                <element signature="method#writeImage#0;class#app#0" />
-                <element signature="method#diffrence#0;class#app#0" />
-                <element signature="method#associate#0;class#app#0" />
-                <element signature="method#split#0;class#app#0" />
-                <element signature="method#nearest_vector#0;class#app#0" />
-                <element signature="method#compress#0;class#app#0" />
-                <element signature="method#decompress#0;class#app#0" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/codebind/app.form">
-          <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
     </leaf>
@@ -81,6 +68,9 @@
       <find>decompress</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -90,19 +80,24 @@
         <option value="$PROJECT_DIR$/src/codebind/app.form" />
         <option value="$PROJECT_DIR$/src/codebind/image_quantization.java" />
         <option value="$PROJECT_DIR$/src/codebind/app.java" />
+        <option value="$PROJECT_DIR$/src/codebind/LBG.java" />
+        <option value="$PROJECT_DIR$/src/codebind/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="1295" />
     <option name="height" value="680" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,13 +116,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="codebind" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="image_quantization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="image_quantization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="codebind" type="462c0819:PsiDirectoryNode" />
+              <item name="LBG" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="image_quantization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="image_quantization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="codebind" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="1a9f42e2:ClassTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -154,9 +161,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.app">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="LBG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codebind.LBG" />
+      <module name="image_quantization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codebind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codebind.Main" />
+      <module name="image_quantization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codebind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -218,9 +247,13 @@
     <list>
       <item itemvalue="Application.image_quantization" />
       <item itemvalue="Application.app" />
+      <item itemvalue="Application.LBG" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.LBG" />
         <item itemvalue="Application.app" />
         <item itemvalue="Application.image_quantization" />
       </list>
@@ -241,7 +274,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" x="891" y="150" width="166" height="729" id="Palette" order="3" show_stripe_button="false" type="FLOATING" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -251,25 +283,25 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30411687" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29216468" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24934895" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32802126" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4050465" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.13413015" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Sequence" order="8" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -277,7 +309,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -311,51 +343,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#avg#0;class#app#0" />
-            <element signature="method#dicideImage#0;class#app#0" />
-            <element signature="method#readImage#0;class#app#0" />
-            <element signature="method#writeImage#0;class#app#0" />
-            <element signature="method#diffrence#0;class#app#0" />
-            <element signature="method#associate#0;class#app#0" />
-            <element signature="method#split#0;class#app#0" />
-            <element signature="method#nearest_vector#0;class#app#0" />
-            <element signature="method#compress#0;class#app#0" />
-            <element signature="method#decompress#0;class#app#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/codebind/app.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/codebind/image_quantization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#avg#0;class#image_quantization#0" />
-            <element signature="method#divideVector#0;class#image_quantization#0" />
-            <element signature="method#readImage#0;class#image_quantization#0" />
-            <element signature="method#writeImage#0;class#image_quantization#0" />
-            <element signature="method#diffrence#0;class#image_quantization#0" />
-            <element signature="method#equal#0;class#image_quantization#0" />
-            <element signature="method#associate#0;class#image_quantization#0" />
-            <element signature="method#split#0;class#image_quantization#0" />
-            <element signature="method#nearest_vector#0;class#image_quantization#0" />
-            <element signature="method#compress#0;class#image_quantization#0" />
-            <element signature="method#decompress#0;class#image_quantization#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/codebind/app.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6970">
-          <caret line="205" column="17" selection-start-line="205" selection-start-column="17" selection-end-line="205" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#avg#0;class#app#0" />
-            <element signature="method#dicideImage#0;class#app#0" />
-            <element signature="method#readImage#0;class#app#0" />
+            <element signature="method#divideImage#0;class#app#0" />
+            <element signature="method#readGreyImage#0;class#app#0" />
             <element signature="method#writeImage#0;class#app#0" />
             <element signature="method#diffrence#0;class#app#0" />
             <element signature="method#associate#0;class#app#0" />
@@ -397,8 +386,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#avg#0;class#app#0" />
-            <element signature="method#dicideImage#0;class#app#0" />
-            <element signature="method#readImage#0;class#app#0" />
+            <element signature="method#divideImage#0;class#app#0" />
+            <element signature="method#readGreyImage#0;class#app#0" />
             <element signature="method#writeImage#0;class#app#0" />
             <element signature="method#diffrence#0;class#app#0" />
             <element signature="method#associate#0;class#app#0" />
@@ -444,8 +433,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#avg#0;class#app#0" />
-            <element signature="method#dicideImage#0;class#app#0" />
-            <element signature="method#readImage#0;class#app#0" />
+            <element signature="method#divideImage#0;class#app#0" />
+            <element signature="method#readGreyImage#0;class#app#0" />
             <element signature="method#writeImage#0;class#app#0" />
             <element signature="method#diffrence#0;class#app#0" />
             <element signature="method#associate#0;class#app#0" />
@@ -488,8 +477,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#avg#0;class#app#0" />
-            <element signature="method#dicideImage#0;class#app#0" />
-            <element signature="method#readImage#0;class#app#0" />
+            <element signature="method#divideImage#0;class#app#0" />
+            <element signature="method#readGreyImage#0;class#app#0" />
             <element signature="method#writeImage#0;class#app#0" />
             <element signature="method#diffrence#0;class#app#0" />
             <element signature="method#associate#0;class#app#0" />
@@ -532,8 +521,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#avg#0;class#app#0" />
-            <element signature="method#dicideImage#0;class#app#0" />
-            <element signature="method#readImage#0;class#app#0" />
+            <element signature="method#divideImage#0;class#app#0" />
+            <element signature="method#readGreyImage#0;class#app#0" />
             <element signature="method#writeImage#0;class#app#0" />
             <element signature="method#diffrence#0;class#app#0" />
             <element signature="method#associate#0;class#app#0" />
@@ -576,8 +565,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#avg#0;class#app#0" />
-            <element signature="method#dicideImage#0;class#app#0" />
-            <element signature="method#readImage#0;class#app#0" />
+            <element signature="method#divideImage#0;class#app#0" />
+            <element signature="method#readGreyImage#0;class#app#0" />
             <element signature="method#writeImage#0;class#app#0" />
             <element signature="method#diffrence#0;class#app#0" />
             <element signature="method#associate#0;class#app#0" />
@@ -617,8 +606,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#avg#0;class#app#0" />
-            <element signature="method#dicideImage#0;class#app#0" />
-            <element signature="method#readImage#0;class#app#0" />
+            <element signature="method#divideImage#0;class#app#0" />
+            <element signature="method#readGreyImage#0;class#app#0" />
             <element signature="method#writeImage#0;class#app#0" />
             <element signature="method#diffrence#0;class#app#0" />
             <element signature="method#associate#0;class#app#0" />
@@ -664,8 +653,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#avg#0;class#app#0" />
-            <element signature="method#dicideImage#0;class#app#0" />
-            <element signature="method#readImage#0;class#app#0" />
+            <element signature="method#divideImage#0;class#app#0" />
+            <element signature="method#readGreyImage#0;class#app#0" />
             <element signature="method#writeImage#0;class#app#0" />
             <element signature="method#diffrence#0;class#app#0" />
             <element signature="method#associate#0;class#app#0" />
@@ -705,8 +694,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#avg#0;class#app#0" />
-            <element signature="method#dicideImage#0;class#app#0" />
-            <element signature="method#readImage#0;class#app#0" />
+            <element signature="method#divideImage#0;class#app#0" />
+            <element signature="method#readGreyImage#0;class#app#0" />
             <element signature="method#writeImage#0;class#app#0" />
             <element signature="method#diffrence#0;class#app#0" />
             <element signature="method#associate#0;class#app#0" />
@@ -854,19 +843,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/VecImg.java" />
     <entry file="file://$PROJECT_DIR$/src/codebind/non_uni.java" />
-    <entry file="file://$PROJECT_DIR$/src/codebind/app.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/hosam.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codebind/app.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="251" column="67" selection-start-line="248" selection-start-column="20" selection-end-line="251" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#avg#0;class#app#0" />
+            <element signature="method#divideImage#0;class#app#0" />
+            <element signature="method#readGreyImage#0;class#app#0" />
+            <element signature="method#writeImage#0;class#app#0" />
+            <element signature="method#diffrence#0;class#app#0" />
+            <element signature="method#associate#0;class#app#0" />
+            <element signature="method#split#0;class#app#0" />
+            <element signature="method#nearest_vector#0;class#app#0" />
+            <element signature="method#compress#0;class#app#0" />
+            <element signature="method#decompress#0;class#app#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ahly.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/original.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/codebind/app.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/codebind/image_quantization.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="151" column="107" selection-start-line="151" selection-start-column="107" selection-end-line="151" selection-end-column="107" />
+        <state relative-caret-position="358">
+          <caret line="304" column="23" selection-start-line="304" selection-start-column="23" selection-end-line="304" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#avg#0;class#image_quantization#0" />
@@ -884,22 +896,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/codebind/app.java">
+    <entry file="file://$PROJECT_DIR$/src/codebind/LBG.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="331">
+          <caret line="198" column="17" selection-start-line="198" selection-end-line="217" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#avg#0;class#app#0" />
-            <element signature="method#dicideImage#0;class#app#0" />
-            <element signature="method#readImage#0;class#app#0" />
-            <element signature="method#writeImage#0;class#app#0" />
-            <element signature="method#diffrence#0;class#app#0" />
-            <element signature="method#associate#0;class#app#0" />
-            <element signature="method#split#0;class#app#0" />
-            <element signature="method#nearest_vector#0;class#app#0" />
-            <element signature="method#compress#0;class#app#0" />
-            <element signature="method#decompress#0;class#app#0" />
+            <element signature="method#avg#0;class#LBG#0" />
+            <element signature="method#divideImage#0;class#LBG#0" />
+            <element signature="method#readGreyImage#0;class#LBG#0" />
+            <element signature="method#writeImage#0;class#LBG#0" />
+            <element signature="method#diffrence#0;class#LBG#0" />
+            <element signature="method#associate#0;class#LBG#0" />
+            <element signature="method#split#0;class#LBG#0" />
+            <element signature="method#nearest_vector#0;class#LBG#0" />
+            <element signature="method#compress#0;class#LBG#0" />
+            <element signature="method#decompress#0;class#LBG#0" />
+            <element signature="method#main#0;class#LBG#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codebind/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
